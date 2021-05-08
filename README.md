@@ -15,6 +15,9 @@ This project contains automation tests for Herokuapp
 ### How to run tests using IDE
 Run com.herokuapp.CucumberRunnerTest
 
+### How to check test reports
+- Test reports can be found at: {ProjectHome}\target\reports\html\index.html
+
 ### Improvements todo
 - Use property files to configure url, browser name and other environment specific information
 - Define seperate configuration files for each environment (dev, qa, staging etc)
