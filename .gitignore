@@ -24,6 +24,7 @@ hs_err_pid*
 
 # intellij specific
 .idea/
+*.iml
 
 # eclipse specific
 .project
