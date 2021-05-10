@@ -10,10 +10,12 @@ This project contains automation tests for Herokuapp
 - Maven
 
 ### How to run tests using maven
-- mvn clean test
+- mvn clean test (runs tests in dev environment)
+- mvn clean test -Denvironment=qa (runs tests in qa environment)
 
 ### How to run tests using IDE
-Run com.herokuapp.CucumberRunnerTest
+Run com.herokuapp.CucumberRunnerTest (runs tests in dev environment)
+Run com.herokuapp.CucumberRunnerTest with system property "-Denvironment=qa" (runs tests in qa environment)
 
 ### How to check test reports
 - Test reports can be found at: {ProjectHome}\target\reports\html\index.html

@@ -8,11 +8,10 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+import static com.herokuapp.util.PropertiesReader.getPropertiesReader;
 import static org.hamcrest.core.StringContains.containsString;
 
 public class LoginSteps {
-
-    private static final String herokuURL = "http://the-internet.herokuapp.com/login";
 
     private WebDriver driver;
 
@@ -27,7 +26,7 @@ public class LoginSteps {
 
     @Given("I am on Heroku login page")
     public void i_am_on_Heroku_login_page() {
-        loginPage.open(herokuURL);
+        loginPage.open(getPropertiesReader().getProperty("url"));
     }
 
     @When("I login with {string} and {string}")
