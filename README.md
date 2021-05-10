@@ -21,8 +21,6 @@ Run com.herokuapp.CucumberRunnerTest with system property "-Denvironment=qa" (ru
 - Test reports can be found at: {ProjectHome}\target\reports\html\index.html
 
 ### Improvements todo
-- Use property files to configure url, browser name and other environment specific information
-- Define seperate configuration files for each environment (dev, qa, staging etc)
 - Use Spring framework and cucumber-spring to create instances of dependencies
 - Enhance project to run tests on other browsers Ex: IE, Firefox, Android Mobile Web, iPhone mobile web
 - Add webdriver waits at the places needed
