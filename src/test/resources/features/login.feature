@@ -2,7 +2,6 @@
 Feature: Heroku Login
   As a Heroku user I want to be able to:
   - Login to the site
-
   @loginSuccess
   Scenario Outline: Successful login
     Given I am on Heroku login page
